@@ -71,7 +71,6 @@
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="banana" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="banana" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="banana" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="banana" />

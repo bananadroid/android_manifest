@@ -96,7 +96,6 @@
   <remove-project name="platform/hardware/broadcom/wlan" /> -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
 <!--  <remove-project name="platform/hardware/nxp/nfc" /> -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
