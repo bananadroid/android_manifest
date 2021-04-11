@@ -87,6 +87,10 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="banana" />
   <project path="hardware/ril" name="android_hardware_ril" remote="banana" />
 
+  <project path="hardware/qcom-caf/sdm660/audio" name="ArrowOS/android_hardware_qcom_audio" revision="arrow-11.0-caf-sdm660" remote="github" />
+  <project path="hardware/qcom-caf/sdm660/display" name="ArrowOS/android_hardware_qcom_display" revision="arrow-11.0-caf-sdm660" remote="github" />
+  <project path="hardware/qcom-caf/sdm660/media" name="ArrowOS/android_hardware_qcom_media" revision="arrow-11.0-caf-sdm660" remote="github" />
+
   <!-- Packages -->
   <project path="packages/apps/BananaGear" name="android_packages_apps_BananaGear" remote="banana" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="banana" />
