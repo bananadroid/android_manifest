@@ -87,7 +87,9 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="banana" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="banana" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="banana" />
+  <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="banana" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="banana" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="banana" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="banana" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="banana" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="banana" />
