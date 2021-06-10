@@ -11,6 +11,8 @@
 
   <remove-project name="platform/development" />
 
+  <remove-project name="platform/libcore" />
+
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />

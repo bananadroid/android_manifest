@@ -26,6 +26,7 @@
   <project path="bionic" name="android_bionic" remote="banana" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="banana" />
   <project path="development" name="android_development" remote="banana" />
+  <project path="libcore" name="android_libcore" remote="banana" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="banana">
