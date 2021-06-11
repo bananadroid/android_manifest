@@ -52,6 +52,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="banana" />
 
   <!-- External -->
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="banana" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
