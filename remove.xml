@@ -73,9 +73,11 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
@@ -177,6 +179,7 @@
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/update_engine" />

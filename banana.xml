@@ -52,7 +52,9 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="banana" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="banana" />
+  <project path="external/cpu_features" name="android_external_cpu_features" remote="banana" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
@@ -119,6 +121,7 @@
   <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/keymaster" name="android_system_keymaster" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
+  <project path="system/security" name="android_system_security" remote="banana" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
   <project path="system/update_engine" name="android_system_update_engine" remote="banana" />
   <project path="system/vold" name="android_system_vold" remote="banana" />
