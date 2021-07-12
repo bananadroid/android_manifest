@@ -56,6 +56,7 @@
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="banana" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="banana" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
+  <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
   <project path="external/pulse" name="android_external_pulse" remote="banana" />
