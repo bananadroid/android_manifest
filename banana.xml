@@ -57,8 +57,11 @@
   <project path="external/cpu_features" name="android_external_cpu_features" remote="banana" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
+  <project path="external/openssh" name="android_external_openssh" remote="banana" />
   <project path="external/pulse" name="android_external_pulse" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="banana" />
@@ -122,6 +125,7 @@
   <project path="system/bpf" name="android_system_bpf" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/keymaster" name="android_system_keymaster" remote="banana" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
   <project path="system/security" name="android_system_security" remote="banana" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
