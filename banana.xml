@@ -52,6 +52,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="banana" />
 
   <!-- External -->
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="banana" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="banana" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="banana" />
