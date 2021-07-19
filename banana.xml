@@ -55,13 +55,13 @@
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="banana" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="banana" />
-  <project path="external/cpu_features" name="android_external_cpu_features" remote="banana" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
+  <project path="external/freetype" name="android_external_freetype" remote="banana" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
+  <project path="external/libpng" name="android_external_libpng" remote="banana" />
   <project path="external/openssh" name="android_external_openssh" remote="banana" />
   <project path="external/pulse" name="android_external_pulse" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
@@ -75,7 +75,6 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="banana" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="banana" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="banana" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="banana" />
 
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
@@ -121,11 +120,11 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="banana" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="banana" />
+
   <!-- System -->
-  <project path="system/apex" name="android_system_apex" remote="banana" />
-  <project path="system/bpf" name="android_system_bpf" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
-  <project path="system/keymaster" name="android_system_keymaster" remote="banana" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
   <project path="system/security" name="android_system_security" remote="banana" />
