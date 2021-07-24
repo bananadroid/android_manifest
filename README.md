@@ -11,7 +11,7 @@ Another cherry-picking ROM, developed by an usual person, nothing special
 To initialize your local repository, use this command:
 -----------------------------------------------------
 
-    repo init -u https://github.com/bananadroid/manifest.git -b 11
+    repo init -u https://github.com/bananadroid/android_manifest.git -b 11
 
 To sync the repository, use this command:
 -----------------------------------------
