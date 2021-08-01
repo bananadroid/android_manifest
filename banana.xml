@@ -82,7 +82,6 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="banana" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="banana" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="banana" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="banana" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="banana" />
 
   <project path="hardware/qcom-caf/sdm660/audio" name="ArrowOS/android_hardware_qcom_audio" revision="arrow-11.0-caf-sdm660" remote="github" />
