@@ -147,6 +147,8 @@
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
   <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
+  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="banana-gitlab" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="banana" />
   <project path="vendor/support" name="android_vendor_support" remote="banana" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="banana" />
