@@ -22,6 +22,7 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
   <project path="external/perfetto" name="android_external_perfetto" remote="lineage" />
   <project path="external/pigz" name="android_external_pigz" remote="lineage" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
