@@ -24,6 +24,7 @@
   <project path="external/pigz" name="android_external_pigz" remote="lineage" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
@@ -147,6 +148,7 @@
   <project path="system/media" name="android_system_media" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
   <!-- Tools -->
