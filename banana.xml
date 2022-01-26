@@ -96,6 +96,7 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="banana" /> 
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="banana" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="banana" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
 
   <!-- Prebuilts -->
