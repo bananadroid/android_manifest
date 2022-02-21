@@ -53,6 +53,7 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
   <project path="external/mksh" name="android_external_mksh" remote="banana" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="banana" />
@@ -83,6 +84,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="banana" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="banana" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="banana" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="banana" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="banana" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="banana" /> 
