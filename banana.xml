@@ -145,6 +145,12 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="banana" />  
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="banana" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="banana" />
+  <project path="vendor/qrcode/zxing" name="android_vendor_qrcode_zxing" remote="banana">
+    <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
+    <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
+    <linkfile src="zxing-android-embedded/src/com/google/zxing/*" dest="vendor/support/src/com/google/zxing" />
+    <linkfile src="zxing-android-embedded/src/com/journeyapps/barcodescanner/*" dest="vendor/support/src/com/journeyapps/barcodescanner" />
+  </project>
   <project path="vendor/support" name="android_vendor_support" remote="banana" />
 
 </manifest>
