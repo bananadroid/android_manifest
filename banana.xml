@@ -55,6 +55,7 @@
   <!-- External -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="banana" />
+  <project path="external/erofs-utils" name="android_external_erofs-utils" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
   <project path="external/mksh" name="android_external_mksh" remote="banana" />
