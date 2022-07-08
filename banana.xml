@@ -120,6 +120,7 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
+  <project path="system/security" name="android_system_security" remote="banana" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
   <project path="system/update_engine" name="android_system_update_engine" remote="banana" />
   <project path="system/vold" name="android_system_vold" remote="banana" />
