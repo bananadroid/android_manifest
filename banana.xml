@@ -67,6 +67,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="banana" />
 
   <!-- Hardware -->
+  <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="banana" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="banana" />
