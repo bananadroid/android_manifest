@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="banana"
+          fetch="https://github.com/bananadroid"
+          revision="12" />
+
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="banana-gitlab"
+          fetch="https://gitlab.com/bananadroid"
+          revision="12" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          review="https://review.lineageos.org/"
+          revision="refs/heads/lineage-19.1" />
+
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP"
+          revision="sc-qpr3" />
+
+  <project path="manifest" name="android_manifest" remote="banana" />
+  <project path="art" name="android_art" remote="banana" />
+  <project path="bionic" name="android_bionic" remote="banana" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="banana" />
+
+  <!-- Builds -->
+  <project path="build/make" name="android_build" remote="banana" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="android_build_blueprint" remote="banana" />
+  <project path="build/soong" name="android_build_soong" remote="banana" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/banana/sepolicy" name="android_device_banana_sepolicy" remote="banana" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="banana" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="banana" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="banana" />
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
+  <project path="external/mksh" name="android_external_mksh" remote="banana" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="banana" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
+  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="banana" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="banana" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="banana" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="banana" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="banana" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="banana" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="12-caf-msm8996" remote="banana" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="12-caf-msm8996" remote="banana" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="12-caf-msm8996" remote="banana" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="12-caf-msm8998" remote="banana" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="12-caf-msm8998" remote="banana" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="12-caf-msm8998" remote="banana" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="12-caf-sm8250" remote="banana" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="12-caf-sm8250" remote="banana" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="12-caf-sm8250" remote="banana" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="banana" revision="12-caf" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="banana" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="banana" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="banana" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="banana" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="banana" /> 
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="banana" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="banana" /> 
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="banana" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="banana" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="banana" />
+
+  <!-- ProtonAOSP -->
+  <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" />
+  <project name="android_external_htop" path="external/htop" remote="proton" />
+  <project name="android_external_p7zip" path="external/p7zip" remote="proton" />
+  <project name="android_external_bash" path="external/bash" remote="proton" />
+  <project name="android_external_nano" path="external/nano" remote="proton" />
+  <project name="android_external_pigz" path="external/pigz" remote="proton" />
+  <project name="android_external_vim" path="external/vim" remote="proton" />
+  <project name="android_external_zip" path="external/zip" remote="proton" />
+  <project name="android_external_rsync" path="external/rsync" remote="proton" />
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" />
+  <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" />
+  <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" />
+  <project name="android_external_libncurses" path="external/libncurses" remote="proton" />
+  <project name="android_external_openssh" path="external/openssh" remote="proton" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="banana" />
+  <project path="system/core" name="android_system_core" remote="banana" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="banana" />
+  <project path="system/vold" name="android_system_vold" remote="banana" />
+
+  <!-- Vendor -->
+  <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
+  <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
+  <project path="vendor/gms" name="android_vendor_gapps" clone-depth="1" remote="banana-gitlab" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="banana" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="banana" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="banana" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="banana" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="banana" revision="12-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="banana" revision="12-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="banana" revision="12-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="banana" revision="12-sn100x" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="banana" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="banana" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="banana" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="banana" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="banana" />  
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="banana" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="banana" />
+  <project path="vendor/support" name="android_vendor_support" remote="banana" />
+
+</manifest>
