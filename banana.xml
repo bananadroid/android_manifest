@@ -54,12 +54,9 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="banana" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="banana" />
   <project path="external/erofs-utils" name="android_external_erofs-utils" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
-  <project path="external/mksh" name="android_external_mksh" remote="banana" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1" />
 
@@ -81,10 +78,6 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="12-caf-msm8998" remote="banana" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="12-caf-msm8998" remote="banana" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="12-caf-msm8998" remote="banana" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="12-caf-sm8250" remote="banana" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="12-caf-sm8250" remote="banana" />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="12-caf-sm8250" remote="banana" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="banana" revision="12-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="banana" />
@@ -134,7 +127,6 @@
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
   <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
   <project path="vendor/gms" name="android_vendor_gapps" clone-depth="1" remote="banana-gitlab" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="banana" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="banana" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="banana" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="banana" />
@@ -146,9 +138,6 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="banana" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="banana" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="banana" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="banana" />  
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="banana" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="banana" />
   <project path="vendor/qrcode/zxing" name="android_vendor_qrcode_zxing" remote="banana">
     <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
     <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
