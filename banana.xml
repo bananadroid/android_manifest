@@ -57,6 +57,7 @@
   <project path="external/erofs-utils" name="android_external_erofs-utils" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="banana" />
+  <project path="external/scudo" name="android_external_scudo" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1" />
 
@@ -120,6 +121,7 @@
   <project name="android_external_openssh" path="external/openssh" remote="proton" />
 
   <!-- System -->
+  <project path="system/bpf" name="android_system_bpf" remote="banana" />
   <project path="system/bt" name="android_system_bt" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/security" name="android_system_security" remote="banana" />
