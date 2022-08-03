@@ -67,15 +67,24 @@
   <remove-project name="platform/libcore" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/giflib" />
+  <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/OpenCSD" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
@@ -107,6 +116,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Prebuilts Repos -->
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
@@ -116,6 +126,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />

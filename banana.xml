@@ -106,9 +106,6 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="banana" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="banana" />
-
   <!-- ProtonAOSP -->
   <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" />
   <project name="android_external_htop" path="external/htop" remote="proton" />
@@ -122,9 +119,23 @@
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" />
   <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" />
-  <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" />
   <project name="android_external_libncurses" path="external/libncurses" remote="proton" />
   <project name="android_external_openssh" path="external/openssh" remote="proton" />
+
+  <!-- crDroid Android -->
+  <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="github" revision="12.1" />
+  <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="github" revision="12.1" />
+  <project path="external/giflib" name="crdroidandroid/android_external_giflib" remote="github" revision="12.1" />
+  <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" remote="github" revision="12.1" />
+  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="github" revision="12.1" />
+  <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="github" revision="12.1" />
+  <project path="external/OpenCSD" name="crdroidandroid/android_external_OpenCSD" remote="github" revision="12.1" />
+  <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="github" revision="12.1" />
+  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="github" revision="12.1" />
+  <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="github" revision="12.1" />
+  <project path="prebuilts/abi-dumps/ndk" name="crdroidandroid/android_prebuilts_abi-dumps_ndk" remote="github" revision="12.1" />
+  <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="github" revision="12.1" />
+  <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" remote="github" revision="12.1" />
 
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="banana" />
