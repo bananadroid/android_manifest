@@ -114,6 +114,7 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Prebuilts Repos -->
