@@ -139,6 +139,9 @@
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="github" revision="12.1" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="github" revision="12.1" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="github" revision="12.1" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="github" revision="12.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" remote="github" revision="12.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" remote="github" revision="12.1-caf-sm8150" />
   <project path="prebuilts/abi-dumps/ndk" name="crdroidandroid/android_prebuilts_abi-dumps_ndk" remote="github" revision="12.1" />
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="github" revision="12.1" />
   <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" remote="github" revision="12.1" />
