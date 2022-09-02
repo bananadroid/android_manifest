@@ -161,7 +161,6 @@
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
   <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
   <project path="vendor/gms" name="android_vendor_gapps" clone-depth="1" remote="banana-gitlab" />
-  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="banana" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="banana" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="banana" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="banana" />
