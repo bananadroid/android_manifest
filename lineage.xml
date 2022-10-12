@@ -8,8 +8,11 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl"  remote="lineage" />
 
   <!-- External -->
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/expat" name="android_external_expat" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/icu" name="android_external_icu" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
 
@@ -55,6 +58,7 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-19.1-caf" />
 
   <!-- Packages -->
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilts -->
@@ -64,6 +68,10 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="lineage" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/nfc" name="android_system_nfc" remote="lineage" />
+  <project path="system/timezone" name="android_system_timezone" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
