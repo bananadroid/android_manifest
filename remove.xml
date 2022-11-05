@@ -60,6 +60,7 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
