@@ -60,6 +60,7 @@
 
   <!-- External -->
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/zlib" name="android_external_zlib-ng" remote="banana" />
