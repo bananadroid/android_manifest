@@ -116,6 +116,7 @@
   <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
+  <project path="system/memory/lmkd" name="RiceDroid/android_system_memory_lmkd" remote="github" revision="thirteen" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
