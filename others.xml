@@ -112,7 +112,6 @@
 
   <!-- System -->
   <project path="system/logging" name="android_system_logging" remote="lineage" />
-  <project path="system/media" name="android_system_media" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />

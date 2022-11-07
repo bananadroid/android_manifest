@@ -108,6 +108,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/extras" name="android_system_extras" remote="banana" />
+  <project path="system/media" name="android_system_media" remote="banana" />
 
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
