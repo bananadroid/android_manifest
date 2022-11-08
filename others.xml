@@ -110,6 +110,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
 
   <!-- Packages -->
+  <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="thirteen" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc-qpr3" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
