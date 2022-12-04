@@ -110,7 +110,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="thirteen" />
-  <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc-qpr3" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
@@ -129,10 +128,8 @@
   <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
-  <project path="system/memory/lmkd" name="RiceDroid/android_system_memory_lmkd" remote="github" revision="thirteen" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
   <project path="system/vold" name="android_system_vold" remote="lineage" />
 
   <!-- Vendor -->
