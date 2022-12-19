@@ -59,7 +59,6 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="banana" />
 
   <!-- External -->
-  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
