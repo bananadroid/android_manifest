@@ -37,7 +37,6 @@
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" remote="github" revision="13.0" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="github" revision="13.0" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="github" revision="13.0" />
-  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="github" revision="13.0" />
   <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="github" revision="13.0" />
 
   <!-- Hardware -->
