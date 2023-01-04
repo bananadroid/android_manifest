@@ -103,6 +103,7 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="banana" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="banana" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="banana" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="banana" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="banana" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="banana" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="banana" />
@@ -119,6 +120,8 @@
   <project path="system/media" name="android_system_media" remote="banana" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
+  <project path="system/security" name="android_system_security" remote="banana" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
   <project path="system/update_engine" name="android_system_update_engine" remote="banana" />
 
   <!-- Vendor -->
