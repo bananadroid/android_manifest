@@ -113,6 +113,7 @@
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="lineage" />
+  <project path="packages/apps/GCamGOPrebuilt" name="Evolution-X/packages_apps_GCamGOPrebuilt" remote="github" revision="tiramisu" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="github" revision="13.0" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="lineage" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
