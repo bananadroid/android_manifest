@@ -16,7 +16,7 @@ To initialize your local repository, use this command:
 To sync the repository, use this command:
 -----------------------------------------
 
-    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 
 To Build, use following commands:
 ---------------------------------
