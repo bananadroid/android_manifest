@@ -171,7 +171,7 @@
   <project path="external/deqp-deps/amber" name="platform/external/deqp-deps/amber" groups="pdk-fs" />
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
-  <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
+  <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" revision="6d7299810bd5820d8d49cecb9f616b0dcfb010cd" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
