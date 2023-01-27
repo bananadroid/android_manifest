@@ -76,6 +76,7 @@
   <project path="external/skia" name="android_external_skia" remote="banana" />
   <project path="external/sqlite" name="android_external_sqlite" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
+  <project path="external/vixl" name="android_external_vixl" remote="banana" />
   <project path="external/zlib-ng" name="android_external_zlib-ng" remote="banana" />
 
   <!-- Framework -->
