@@ -56,6 +56,8 @@
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/rust/cxx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/sqlite" />
