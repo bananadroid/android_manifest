@@ -128,7 +128,7 @@
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
   <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
-  <project path="vendor/gms" name="android_vendor_gapps" clone-depth="1" remote="banana-gitlab" />
+  <project path="vendor/gms" name="android_vendor_gms" clone-depth="1" remote="banana-gitlab" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="banana" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="banana" />
   <project path="vendor/support" name="android_vendor_support" remote="banana" />
