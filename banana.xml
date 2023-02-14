@@ -124,6 +124,7 @@
   <project path="system/security" name="android_system_security" remote="banana" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
   <project path="system/update_engine" name="android_system_update_engine" remote="banana" />
+  <project path="system/vold" name="android_system_vold" remote="banana" />
 
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
