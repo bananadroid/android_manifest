@@ -44,7 +44,6 @@
   <remove-project name="device/google/sunfish-sepolicy" />
 
   <!-- external -->
-  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
