@@ -77,6 +77,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="banana" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="banana" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="banana" />
+  <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="banana" />
 
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
