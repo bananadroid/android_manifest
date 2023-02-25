@@ -138,7 +138,6 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- System -->
-  <project path="system/logging" name="android_system_logging" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
