@@ -59,6 +59,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="banana" />
 
   <!-- External -->
+  <project path="external/conscrypt" name="android_external_conscrypt" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
