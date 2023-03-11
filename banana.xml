@@ -60,6 +60,7 @@
 
   <!-- External -->
   <project path="external/aac" name="android_external_aac" remote="banana" />
+  <project path="external/conscrypt" name="android_external_conscrypt" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
   <project path="external/libfuse" name="android_external_libfuse" remote="banana" />
