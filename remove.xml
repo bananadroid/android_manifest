@@ -45,6 +45,8 @@
 
   <!-- external -->
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/conscrypt" />
