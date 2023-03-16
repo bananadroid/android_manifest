@@ -91,6 +91,7 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
 
   <!-- Packages -->
+  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="banana" />
   <project path="packages/apps/BananaGear" name="android_packages_apps_BananaGear" remote="banana" />
   <project path="packages/apps/BananaPaper" name="android_packages_apps_BananaPaper" remote="banana" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="banana" />
