@@ -127,7 +127,6 @@
   <project path="prebuilts/calyx/chromium/arm" name="CalyxOS/platform_prebuilts_calyx_chromium_arm" remote="gitlab" revision="android11-qpr1" clone-depth="1" />
   <project path="prebuilts/calyx/chromium/x86" name="CalyxOS/platform_prebuilts_calyx_chromium_x86" remote="gitlab" revision="android13" clone-depth="1" />
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="lineage" />
-  <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
   <project path="prebuilts/rust" name="yaosp/prebuilts_rust" remote="gitlab" revision="thirteen" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
