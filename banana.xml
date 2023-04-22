@@ -59,15 +59,10 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="banana" />
 
   <!-- External -->
-  <project path="external/aac" name="android_external_aac" remote="banana" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/conscrypt" name="android_external_conscrypt" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
-  <project path="external/libfuse" name="android_external_libfuse" remote="banana" />
-  <project path="external/protobuf" name="android_external_protobuf" remote="banana" />
-  <project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="banana" />
-  <project path="external/rust/cxx" name="android_external_rust_cxx" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
   <project path="external/sqlite" name="android_external_sqlite" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
@@ -132,15 +127,11 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="banana" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="banana-gitlab" clone-depth="1" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="banana" />
 
   <!-- System -->
-  <project path="system/apex" name="android_system_apex" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/extras" name="android_system_extras" remote="banana" />
-  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="banana" />
-  <project path="system/logging" name="android_system_logging" remote="banana" />
   <project path="system/media" name="android_system_media" remote="banana" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
