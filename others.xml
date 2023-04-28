@@ -120,7 +120,6 @@
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineage" />
   <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" remote="lineage" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="lineage" />
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android13" clone-depth="1" />
