@@ -62,13 +62,17 @@
   <project path="external/aac" name="android_external_aac" remote="banana" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/conscrypt" name="android_external_conscrypt" remote="banana" />
+  <project path="external/elfutils" name="android_external_elfutils" remote="banana" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="banana-gitlab" />
+  <project path="external/freetype" name="android_external_freetype" remote="banana" />
+  <project path="external/harfbuzz_ng" name="android_external_harfbuzz_ng" remote="banana" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="banana" />
   <project path="external/libfuse" name="android_external_libfuse" remote="banana" />
   <project path="external/protobuf" name="android_external_protobuf" remote="banana" />
   <project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="banana" />
   <project path="external/rust/cxx" name="android_external_rust_cxx" remote="banana" />
   <project path="external/selinux" name="android_external_selinux" remote="banana" />
+  <project path="external/skia" name="android_external_skia" remote="banana" />
   <project path="external/sqlite" name="android_external_sqlite" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/vixl" name="android_external_vixl" remote="banana" />
