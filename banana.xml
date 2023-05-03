@@ -95,6 +95,8 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="banana" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
 
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" remote="banana" revision="13-caf-sm8350" />
+
   <!-- Packages -->
   <project path="packages/apps/BananaGear" name="android_packages_apps_BananaGear" remote="banana" />
   <project path="packages/apps/BananaPaper" name="android_packages_apps_BananaPaper" remote="banana" revision="master" />
