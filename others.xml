@@ -33,11 +33,9 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
 
   <!-- crDroid -->
-  <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="github" revision="13.0" />
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" remote="github" revision="13.0" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="github" revision="13.0" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="github" revision="13.0" />
-  <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="github" revision="13.0" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
