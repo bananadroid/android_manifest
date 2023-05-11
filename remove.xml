@@ -74,6 +74,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zstd" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />

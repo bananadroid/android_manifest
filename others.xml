@@ -31,6 +31,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+  <project path="external/zstd" name="android_external_zstd" remote="lineage" />
 
   <!-- crDroid -->
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" remote="github" revision="13.0" />
