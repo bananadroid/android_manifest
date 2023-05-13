@@ -36,6 +36,7 @@
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" remote="github" revision="13.0" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="github" revision="13.0" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="github" revision="13.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
