@@ -16,7 +16,8 @@
           revision="13" />
 
   <remote name="banana-devices"
-          fetch="https://github.com/bananadroid-devices" />
+          fetch="https://github.com/bananadroid-devices"
+          revision="13" />
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
