@@ -2,8 +2,8 @@
 <img src="https://media.discordapp.net/attachments/1102775142108647424/1103331738660384930/Frame_1.png" > 
 </p>
 
----------------------------------------------------------------------------------------------------------
-BananaDroid
+--------------------------------------------------------------------------------------------------------
+TutelOS
 ====================
 Another cherry-picking ROM, developed by an usual person, nothing special
 
@@ -22,16 +22,14 @@ To Build, use following commands:
 ---------------------------------
     
     . build/envsetup.sh
-    lunch banana_<devicecodename>-userdebug
-    m banana
+    lunch tutel_<devicecodename>-userdebug
+    m tutel
 
 ---------------------------------------------------------------------------------------------------------
 
 Special thanks to All ROM Developers in this community
 
 ---------------------------------------------------------------------------------------------------------
-
-Join our [**Telegram Group**](https://t.me/bananadroid) and follow our [**Telegram Channel**](https://t.me/bananadroidchannel)
 
 Thank you!
 
