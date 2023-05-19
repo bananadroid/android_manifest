@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------------------------------
 TutelOS
 ====================
-(as of right now your only building bananadroid using this repo)
+(as of right now your only building bananadroid using this repo but it doesnt work using the tutel command)
 
 To initialize your local repository, use this command:
 -----------------------------------------------------
