@@ -5,9 +5,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/libcore" />
 
-  <!-- bootable -->
-  <remove-project name="platform/bootable/recovery" />
-
   <!-- build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
