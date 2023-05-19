@@ -5,8 +5,7 @@
 --------------------------------------------------------------------------------------------------------
 TutelOS
 ====================
-Another cherry-picking ROM, developed by an usual person, nothing special
-
+(as of right now your only building bananadroid using this repo)
 
 To initialize your local repository, use this command:
 -----------------------------------------------------
