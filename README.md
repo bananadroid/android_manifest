@@ -3,7 +3,7 @@
 </p>
 
 --------------------------------------------------------------------------------------------------------
-TutelOS
+TutelOS Legacy
 ====================
 (as of right now your only building LineageOS 14.1 using this repo but it doesnt work using the tutel command)
 
