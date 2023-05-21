@@ -10,7 +10,7 @@ TutelOS
 To initialize your local repository, use this command:
 -----------------------------------------------------
 
-    repo init -u https://github.com/tutelos-repo/android_manifest.git -b 13 --git-lfs
+    repo init -u https://github.com/tutelos-repo/android_manifest.git -b 10 --git-lfs
 
 To sync the repository, use this command:
 -----------------------------------------
