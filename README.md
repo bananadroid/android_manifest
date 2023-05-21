@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------------------------------
 TutelOS
 ====================
-(as of right now your only building bananadroid using this repo but it doesnt work using the tutel command)
+(as of right now your only building LineageOS 17.1 using this repo but it doesnt work using the tutel command)
 
 To initialize your local repository, use this command:
 -----------------------------------------------------
@@ -15,7 +15,7 @@ To initialize your local repository, use this command:
 To sync the repository, use this command:
 -----------------------------------------
 
-    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch
 
 To Build, use following commands:
 ---------------------------------
