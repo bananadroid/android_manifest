@@ -5,12 +5,12 @@
 --------------------------------------------------------------------------------------------------------
 TutelOS
 ====================
-(as of right now your only building LineageOS 17.1 using this repo but it doesnt work using the tutel command)
+(as of right now your only building LineageOS 16 using this repo but it doesnt work using the tutel command)
 
 To initialize your local repository, use this command:
 -----------------------------------------------------
 
-    repo init -u https://github.com/tutelos-repo/android_manifest.git -b 10 --git-lfs
+    repo init -u https://github.com/tutelos-repo/android_manifest.git -b 9 --git-lfs
 
 To sync the repository, use this command:
 -----------------------------------------
