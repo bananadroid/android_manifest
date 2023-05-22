@@ -1188,7 +1188,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
 
-  <!-- BananaDroid -->
+  <!-- tutelOS -->
   <include name="remove.xml" />
   <include name="tutel.xml" />
   <include name="others.xml" />
