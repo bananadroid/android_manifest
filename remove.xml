@@ -77,6 +77,8 @@
   <remove-project name="platform/frameworks/proto_logging" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/google/gchips" />
+  <remove-project name="platform/hardware/google/graphics/common" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ril" />
