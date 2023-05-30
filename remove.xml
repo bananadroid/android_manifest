@@ -44,12 +44,15 @@
   <remove-project name="device/google/sunfish-sepolicy" />
 
   <!-- external -->
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/conscrypt" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/freetype" />
@@ -58,14 +61,19 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libfuse" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/protobuf" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/rust/cxx" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/zstd" />
 
   <!-- frameworks -->
@@ -128,13 +136,17 @@
   <remove-project name="platform/packages/services/Telephony" />
 
   <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/r8" />
+  <remove-project name="platform/prebuilts/rust" />
 
   <!-- system -->
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
