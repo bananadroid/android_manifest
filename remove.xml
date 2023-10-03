@@ -3,6 +3,7 @@
 
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/libcore" />
 
   <!-- bootable -->
@@ -89,6 +90,7 @@
   <remove-project name="platform/frameworks/proto_logging" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ril" />

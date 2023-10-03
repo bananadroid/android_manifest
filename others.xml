@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="development" name="android_development" remote="lineage" />
+
   <!-- External -->
   <!-- LineageOS -->
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
@@ -41,6 +43,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
 
   <!-- Hardware -->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
@@ -162,6 +165,8 @@
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="lineage" />
+  <project path="vendor/qcom/opensource/core-utils-sys" name="android_vendor_qcom_opensource_core-utils-sys" remote="lineage" />
+  <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" remote="lineage" />
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="lineage" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" revision="lineage-20.0-legacy-um" />
