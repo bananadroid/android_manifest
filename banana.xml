@@ -135,7 +135,8 @@
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
   <project path="vendor/extras" name="android_vendor_extras" remote="banana" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="banana-gitlab" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="banana-gitlab" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="banana-gitlab" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="banana" />
   <project path="vendor/support" name="android_vendor_support" remote="banana" />
 
