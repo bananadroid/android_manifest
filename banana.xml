@@ -93,6 +93,7 @@
   </project>
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="14-caf-sm8350" remote="banana" />
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" revision="14-caf-sm8450" remote="banana" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="banana" revision="14-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/BananaGear" name="android_packages_apps_BananaGear" remote="banana" />
