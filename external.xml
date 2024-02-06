@@ -33,6 +33,7 @@
   <project path="external/cronet" name="android_external_cronet" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
   <project path="external/libnl" name="android_external_libnl" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
