@@ -115,6 +115,7 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
+  <project path="system/media" name="android_system_media" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
   <!-- Tools -->
