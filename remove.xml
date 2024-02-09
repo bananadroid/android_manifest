@@ -79,6 +79,7 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/gptfdisk" />

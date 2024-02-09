@@ -46,6 +46,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="14-legacy-um" remote="banana" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/piex" name="android_external_piex" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="banana" />
