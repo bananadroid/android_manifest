@@ -61,6 +61,7 @@
 
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="banana" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="banana" />
 

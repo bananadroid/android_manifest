@@ -115,6 +115,8 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- System -->
+  <project path="system/extras" name="android_system_extras" remote="lineage" />
+  <project path="system/logging" name="android_system_logging" remote="lineage" />
   <project path="system/media" name="android_system_media" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
@@ -123,6 +125,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
+  <project path="vendor/google/interfaces" name="TheParasiteProject/vendor_google_interfaces" revision="14.0" remote="github" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" revision="uvite" remote="github" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="lineage" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="lineage" />
