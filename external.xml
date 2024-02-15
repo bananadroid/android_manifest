@@ -107,6 +107,7 @@
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="lineage" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" revision="fourteen" remote="gitlab" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" revision="lineage-19.1" remote="lineage" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" revision="lineage-19.1" remote="lineage" />

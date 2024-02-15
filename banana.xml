@@ -26,6 +26,11 @@
   <project path="official-maintainers" name="official-maintainers" remote="banana-devices" revision="master" />
 
   <!-- Builds -->
+  <project path="build/bazel" name="android_build_bazel" remote="banana" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+
   <project path="build/make" name="android_build" remote="banana" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -47,7 +52,14 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
+  <project path="external/boringssl" name="android_external_boringssl" remote="banana" />
+  <project path="external/giflib" name="android_external_giflib" remote="banana" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="banana" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="banana" />
   <project path="external/piex" name="android_external_piex" remote="banana" />
+  <project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="banana" />
+  <project path="external/setupcompat" name="android_external_setupcompat" remote="banana" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="banana" />
 
@@ -122,6 +134,8 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="banana" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="banana" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="banana" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="banana" />
+  <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" remote="banana" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="banana" />
   <project path="packages/modules/common" name="android_packages_modules_common" remote="banana" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="banana" />
@@ -130,16 +144,25 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="banana" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="banana" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="banana" />
+
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="banana" />
   <project path="system/core" name="android_system_core" remote="banana" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="banana" />
   <project path="system/libhidl" name="android_system_libhidl" remote="banana" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="banana" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
   <project path="system/security" name="android_system_security" remote="banana" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
+  <project path="system/server_configurable_flags" name="android_system_server_configurable_flags" remote="banana" />
   <project path="system/update_engine" name="android_system_update_engine" remote="banana" />
   <project path="system/vold" name="android_system_vold" remote="banana" />
+
+  <!-- Toolchain -->
+  <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="banana" />
 
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
