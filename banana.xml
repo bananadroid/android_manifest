@@ -60,6 +60,7 @@
   <project path="external/piex" name="android_external_piex" remote="banana" />
   <project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="banana" />
   <project path="external/setupcompat" name="android_external_setupcompat" remote="banana" />
+  <project path="external/skia" name="android_external_skia" remote="banana" />
   <project path="external/sqlite" name="android_external_sqlite" remote="banana" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="banana" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="banana" />
@@ -104,6 +105,8 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <!-- add guards for Pixel kernel modules -->
+    <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="14-caf-sm8350" remote="banana" />
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" revision="14-caf-sm8450" remote="banana" />
@@ -155,6 +158,7 @@
   <project path="system/libhidl" name="android_system_libhidl" remote="banana" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="banana" />
   <project path="system/linkerconfig" name="android_system_linkerconfig" remote="banana" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="banana" />
   <project path="system/netd" name="android_system_netd" remote="banana" />
   <project path="system/security" name="android_system_security" remote="banana" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="banana" />
