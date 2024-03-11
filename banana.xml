@@ -51,6 +51,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="14-legacy-um" remote="banana" />
 
   <!-- External -->
+  <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="banana" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="banana" />
   <project path="external/boringssl" name="android_external_boringssl" remote="banana" />
   <project path="external/giflib" name="android_external_giflib" remote="banana" />
@@ -125,6 +126,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="banana" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="banana" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="banana" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="banana" />
   <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="banana" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="banana" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="banana" />
